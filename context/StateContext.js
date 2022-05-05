@@ -52,7 +52,7 @@ export const StateContext = ({ children }) => {
     index = cartItems.findIndex(product => product._id === id);
     console.log(index);
     //independently of the quantity, the total price and total quantities will be updated
-    const newCartItems = cartItems.filter(item => item._id !== id);
+    const newCartItems = cartItems.filter( item => item._id !== id);
     console.log(newCartItems);
     
 
